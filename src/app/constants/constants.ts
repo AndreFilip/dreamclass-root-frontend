@@ -1,0 +1,3 @@
+export const PUBLIC_HOLIDAY_DIALOG_COMPONENT_CONSTANTS = {
+  WIDTH: '50rem'
+};
