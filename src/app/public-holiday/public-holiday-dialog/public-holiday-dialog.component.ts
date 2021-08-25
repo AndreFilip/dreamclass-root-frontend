@@ -4,7 +4,7 @@ import {formatDate} from '@angular/common';
 
 import {MAT_DIALOG_DATA} from '@angular/material/dialog';
 
-import {PublicHoliday} from "../interfaces/public-holiday";
+import {PublicHoliday} from "../../interfaces/public-holiday";
 
 @Component({
   selector: 'app-public-holiday-dialog',

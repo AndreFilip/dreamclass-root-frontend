@@ -1,11 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import {PublicHoliday} from "./interfaces/public-holiday";
+import {PublicHoliday} from "../interfaces/public-holiday";
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class PublicHolidayService {
 
   private readonly url = "http://localhost:8080/publicHolidays/";
